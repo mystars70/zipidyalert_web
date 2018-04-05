@@ -1,0 +1,14 @@
+.business-avatar {
+    display: none !important;
+}
+
+.upload-file-box {
+    cursor: pointer;
+}
+
+.message-notice div {
+    font-size: 11px;
+}
+#business-update .formError {
+   left: 230px !important;
+ }

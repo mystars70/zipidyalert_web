@@ -1,0 +1,301 @@
+media-body a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+.media-body .media-heading{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.media-body .date {
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+}
+
+.title-block-message {
+    margin-bottom: 10px;
+}
+
+.title-block-message div{
+    display: inline-block;
+}
+
+.btn-add-message {
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 10px;
+    background-color: rgb(29, 162, 236);
+    color: #FFF;
+}
+
+.glyphicon-direct-users-active {
+    background: url(../images/icon_direct_users_active.png) no-repeat left center;
+}
+
+.glyphicon-alert-managers-active {
+    background: url(../images/icon_alert_managers_active.png) no-repeat left center;
+}
+
+.glyphicon-checked {
+    background: url(../images/icon-check.png) no-repeat left center;
+    background-size: cover;
+}
+
+.glyphicon-uncheck {
+    background: url(../images/icon-uncheck.png) no-repeat left center;
+    background-size: cover;
+}
+
+.glyphicon-p {
+    height: 18px;
+}
+
+.glyphicon {
+    top: 4px;
+}
+
+.nummber-n {
+    padding-top: 4px;
+}
+
+.counter-header-add-indirect {
+    border-right: 1px solid rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.counter-header-share {
+    color: rgb(61, 176, 239);
+    font-weight: bold;
+    margin-left: 30px !important;
+    cursor: pointer;
+}
+
+.counter-header {
+    padding: 10px;
+}
+
+.counter-header span {
+    line-height: 30px;
+}
+
+.block-title-p-bottom {
+    /*border-top: 1px solid #e4e4e4;*/
+    color: rgb(61, 176, 239) !important;
+    height: 49px;
+    /*width: 100%;*/
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 49px;
+    /*text-align: center;*/
+    display: inline-block;
+    float: right;
+}
+
+.block-title-p-bottom a{
+    text-decoration: none;
+    color: rgb(61, 176, 239) !important;
+    font-size: 12px;
+}
+
+.block-title-p {
+    text-align: left !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+span.u1-business, span.u2-business {
+    display: block;
+    height: 25px;
+    background: none;
+    padding-left: 0px;
+    float: left;
+    margin-right: 50px;
+}
+
+.img-circle {
+    width: 32px;
+    height: 32px;
+}
+
+.update-form .logo-wrap .logo-box {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    border-radius: 50%;
+}
+
+.update-form .logo-wrap .logo-box img{
+    height: 100%;
+}
+
+.btn-group-notification div{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.footer-register a{
+    line-height: 64px;
+}
+
+/*pagination*/
+.paging_content, .paging_partial {
+    text-align: center;
+}
+
+.form-forgot-password-wrap {
+    width: 390px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.12);
+    margin: 0 auto;
+}
+
+.form-forgot-password-wrap h3 {
+    color: #656565;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+#forgotPasswordForm {
+    margin: 0 auto;
+}
+
+.background-warp {
+    height: calc(100vh - 136px);
+}
+
+.menu-profile {
+    max-width: 300px;
+    word-break: break-all;
+}
+
+/*--------term page--------*/
+h2.title-term {
+    width: 100%;
+    color: #656565;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+}
+.sub-title-term {
+    text-align: center;
+    color: #656565;
+    font-weight: bold;
+}
+.term-msg {
+    text-align: left;
+    padding: 10px;
+}
+.term-msg span {
+    display: block;
+    margin: 0 auto;
+    color: #656565;
+    font-size: 16px;
+}
+
+.btn-decline {
+    color: #1DA3ED;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.top-map {
+    width: 100%;
+    height: 200px;
+}
+
+.default-logo-business {
+    max-width: 80px;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+    text-decoration: none;
+    margin:0 auto;
+}
+.logo-img:hover {
+    text-decoration: none;
+}
+
+.default-logo-business-item {
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.media a:hover {
+    text-decoration: none;
+}
+
+.verify-msg {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.verify-msg a{
+    color:red;
+}
+
+.invite_place {
+    float: right;
+    padding-right: 10px;
+}
+.places-join {
+    width: 26px;
+}
+.join-places {
+    cursor: pointer;
+}
+
+.counter-business {
+    display: inline-block;
+    width: 170px;
+}
+
+.no-padding-right {
+    padding-right: 0px !important;
+}
+
+.social-share {
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    border-radius: 15px;
+    background-color: #f0f4f5;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.social-share .google_plus{
+    color: #dd4b39;
+}
+
+/*.social-share .fb{
+    color: #dd4b39;
+}*/
+.social-share .twitter{
+    color: #00aced;
+}
+.social-share .email{
+    color: #cfcfcf;
+}

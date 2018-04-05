@@ -1,0 +1,92 @@
+@media only screen 
+and (max-device-width : 736px) {
+    .business-wrap #mainNav .container {
+        width: 100%;
+    }
+    .business-wrap .content-wrap {
+        width: 100%;
+    }
+    .business-wrap .content-wrap .row{
+        margin: 0;
+    }
+    .business-wrap #mainNav {
+        z-index:1;
+    }
+    .business-wrap #mainNav .col-lg-9 {
+        padding: 0;
+    }
+    .business-wrap #mainNav .col-lg-9 .navbar-right{
+        margin: 0;
+    }
+    body.register #mainNav {
+        margin-bottom: 0;
+    }
+    body.register #mainNav .col-lg-8 {
+        padding: 0;
+    }
+    body.register .form-login .input-group {
+        width: 100%;
+    }
+    body.register .form-login{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    body.register .input-group{
+        margin-bottom: 15px;
+    }
+    body.register .login-submit {
+        text-align: center;
+    }
+    body.register .login-submit button {
+        float: inherit;
+    }
+    
+    div#menu-header {
+        width: 100%;
+        background: #1da3ed;
+        border: 1px solid #f0f4f5;
+    }
+    #adv-search {
+        width: 100%;
+    }
+    .cotent-main .list-data-wrap {
+        margin-top: 15px;
+    }
+    .list-data .item {
+        padding: 0 15px;
+    }
+    .form-register-wrap {
+        width: 100%;
+    }
+    .mutiple .state-box {
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+    .btn-submit {
+        text-align: center;
+    }
+    .register-intro {
+        padding: 0 15px;
+    }
+    .register-intro .section-heading {
+        height: auto;
+        font-size: 28px;
+    }
+    .menu-footer {
+        text-align: center;
+    }
+    .copy-right {
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media only screen 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+    
+    .sidebar-right-wrap {
+        padding: 0;
+    }
+}

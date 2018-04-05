@@ -1,0 +1,4 @@
+183.81.9.67 - - [03/Jan/2018:16:00:40 +0000] "GET /user HTTP/1.1" 404 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+183.81.9.67 - - [03/Jan/2018:16:00:40 +0000] "GET /favicon.ico HTTP/1.1" 404 536 "https://zipidyalert.com/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+183.81.9.67 - - [03/Jan/2018:16:00:45 +0000] "GET /user/ HTTP/1.1" 404 530 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+183.81.9.67 - - [03/Jan/2018:16:00:52 +0000] "GET /user HTTP/1.1" 404 682 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"

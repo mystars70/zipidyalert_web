@@ -1,0 +1,90 @@
+.list-user-popup {
+	height: auto;
+}
+#cboxLoadedContent {
+    overflow: hidden !important;
+}
+.popup-content {
+    clear: both !important;
+    width: 600px !important;
+}
+#user_invitation .header-tab {
+	width: 100%;
+}
+
+#user_invitation .title-add_user {
+	height: 24px;
+	color: #535353;
+	font-family: "Proxima Nova";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#user_invitation .input-user-wrap {
+    padding: 0;
+    margin: 0;
+}
+#user_invitation .input-user {
+    height: 36px;
+    border-radius: 4px;
+    background-color: #F0F1F2;
+    border: none;
+    display: block;
+    float: left;
+    padding: 0 10px;
+    width: 509px;
+}
+
+#user_invitation .btn-invite {
+	border-radius: 3px;
+	background-color: #52b266;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.18);
+	color: #fff;
+	border: none;
+	padding: 8px 30px;
+	margin-left: 20px;
+}
+
+#user_invitation .group-button-terms {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.invitationUserPlace::-webkit-input-placeholder {
+  color: transparent;
+  text-indent: -9999px;
+  background-image: url("../images/place-search.png");
+  background-position: 50%;
+  background-repeat: no-repeat; 
+}
+.invitationUserPlace::-moz-placeholder {
+  /* Firefox 19+ */
+  color: transparent;
+  text-indent: -9999px;
+  background-image: url("../images/place-search.png");
+  background-position: 50%;
+  background-repeat: no-repeat; 
+}
+.invitationUserPlace:-moz-placeholder {
+  /* Firefox 18- */
+  color: transparent;
+  text-indent: -9999px;
+  background-image: url("../images/place-search.png");
+  background-position: 50%;
+  background-repeat: no-repeat; 
+}
+.invitationUserPlace:-ms-input-placeholder {
+  /* IE 10- */
+  color: transparent;
+  text-indent: -9999px;
+  background-image: url("../images/place-search.png");
+  background-position: 50%;
+  background-repeat: no-repeat; 
+}

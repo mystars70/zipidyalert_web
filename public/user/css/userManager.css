@@ -1,0 +1,240 @@
+.list-user-popup {
+	height: auto;
+}
+.content-tab {
+  padding: 10px;
+}
+#add_user_content .header-tab {
+  width: 100%;
+}
+.cboxClose {
+  cursor: pointer;
+  top:18px ;
+  position: absolute;
+    bottom: inherit;
+    right: 15px;
+    display: block;
+    color: #444;
+    background: url(../images/icon-close.png) no-repeat left center;
+    text-indent: -9999px;
+    height: 20px;
+    width: 20px;
+}
+#add_user_content .block-search {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#add_user_content #cboxLoadedContent {
+    overflow: hidden !important;
+}
+#add_user_content .popup-content {
+    clear: both !important;
+    /*width: 600px !important;*/
+    width: 100%;
+}
+#user_invitation .header-tab, #share_place .header-tab, #invite_place .header-tab {
+	width: 100%;
+}
+
+#user_invitation .title-add_user, #share_place .title-add_user, #invite_place .title-add_user{
+	height: 24px;
+	color: #535353;
+	font-family: "Proxima Nova";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#user_invitation .input-user-wrap, #share_place .input-user-wrap, #invite_place .input-user-wrap {
+    padding: 0;
+    margin: 0;
+}
+
+#user_invitation .btn-invite, #share_place .btn-invite, #invite_place .btn-invite {
+	border-radius: 1px;
+	background-color: #52b266;
+	box-shadow: 0 2px 10px 0 rgb(121, 193, 160);
+	color: #fff;
+	border: none;
+	padding: 8px 30px;
+	margin-left: 20px;
+}
+
+#user_invitation .group-button-terms, #share_place .group-button-terms, #invite_place .group-button-terms {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.invitationUserPlace::-webkit-input-placeholder {
+  color: transparent;
+  text-indent: -9999px;
+  background-image: url("../images/place-search.png");
+  background-position: 50%;
+  background-repeat: no-repeat; 
+}
+.invitationUserPlace::-moz-placeholder {
+  /* Firefox 19+ */
+  color: transparent;
+  text-indent: -9999px;
+  background-image: url("../images/place-search.png");
+  background-position: 50%;
+  background-repeat: no-repeat; 
+}
+.invitationUserPlace:-moz-placeholder {
+  /* Firefox 18- */
+  color: transparent;
+  text-indent: -9999px;
+  background-image: url("../images/place-search.png");
+  background-position: 50%;
+  background-repeat: no-repeat; 
+}
+.invitationUserPlace:-ms-input-placeholder {
+  /* IE 10- */
+  color: transparent;
+  text-indent: -9999px;
+  background-image: url("../images/place-search.png");
+  background-position: 50%;
+  background-repeat: no-repeat; 
+}
+
+#user_invitation, #share_place, #invite_place {
+  z-index: 10000;
+  background: rgba(119, 119, 119, 0.49) !important;
+  padding-right: 0px !important;
+}
+
+#user_invitation .modal-dialog, #share_place .modal-dialog, #invite_place .modal-dialog {
+	margin: 30px auto;
+}
+
+#user_invitation .modal-content, #share_place .modal-content, #invite_place .modal-content {
+	width: 470px;
+	margin: auto;
+}
+
+#user_invitation .modal-body, #share_place .modal-body, #invite_place .modal-body {
+  padding: 0px !important;
+  background-color: rgba(0,0,0,0.001);
+}
+
+#user_invitation .modal-header, #share_place .modal-header , #invite_place .modal-header{
+	text-align: center;
+  padding: 30px;
+	border: none!important;
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,0.08);
+}
+
+#user_invitation .modal-footer, #share_place .modal-footer, #invite_place .modal-footer {
+	border: none!important;
+	background-color: rgba(0,0,0,0.001);
+	padding: 45px 50px 30px 15px;
+}
+
+#user_invitation .block-search, #share_place .block-search, #invite_place .block-search {
+  margin-top: 0px !important;
+}
+
+#user_invitation input[type="text"], #share_place input[type="text"], #invite_place input[type="text"] {
+  border: 1px solid rgba(40, 40, 41, 0.16)!important;
+}
+
+#user_invitation .form-input-list, #share_place .form-input-list, #invite_place .form-input-list {
+	margin: 20px 50px 0px 50px;
+	position: relative;
+}
+
+#user_invitation .block-search, #share_place .block-search, #invite_place .block-search {
+	overflow: visible;
+}
+
+#user_invitation .close, #share_place .close, #invite_place .close {
+  position: absolute;
+  bottom: inherit;
+  right: 20px;
+  top: 35px;
+  display: block;
+  color: #444;
+  background: url(../images/icon-close.png) no-repeat left center;
+  text-indent: -9999px;
+  height: 20px;
+  width: 20px;
+  opacity: 1 !important;
+}
+
+#user_invitation .add-email-input, #share_place .add-email-input, #invite_place .add-email-input {
+    width: 100%;
+    height: 40px;
+    border: 1px dashed rgba(29, 163, 237, 0.9);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 7px;
+    color: rgba(29, 163, 237, 0.8);
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#user_invitation .btn-modal-close, #share_place .btn-modal-close, #invite_place .btn-modal-close {
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,0.1);
+	border: none !important;
+  padding: 10px 30px;
+  background-color: #fff !important;
+}
+
+
+#user_invitation #btn-invite, #share_place #btn-share, #invite_place #btn-invite_place {
+    background-color: rgba(65, 220, 177, 0.81) !important;
+	box-shadow: 0 2px 10px 0 rgb(121, 193, 160);
+	border: none !important;
+    padding: 10px 55px;
+    margin-left: 20px;
+    border-radius: 1px !important;
+}
+
+#addForm .formError, #shareForm .formError {
+  left: 230px !important;
+}
+
+.add-email-input div{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid rgba(29, 163, 237, 0.9);
+  border-radius: 10px;
+  position: relative;
+  vertical-align: middle;
+}
+.add-email-input div span{
+  font-size: 20px;
+  margin-top: -5px;
+  /*margin-left: 0.5px;*/
+  font-weight: normal;
+}
+
+.add-email-input span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.deactive-status, .active-status {
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    line-height: 36px;
+    padding-left: 20px;
+    height: 36px;
+    float: right;
+    cursor: pointer;
+    width: 90px;
+        color: #1DA3ED;
+}
+
+@media (max-width: 768px) {
+  #user_invitation .modal-sm,  #share_place .modal-sm,  #invite_place .modal-sm {
+    width: 300px;
+    margin: 30px auto;
+  }
+}

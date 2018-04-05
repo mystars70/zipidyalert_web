@@ -1,0 +1,198 @@
+.businesses-detail {
+    padding:20px;
+}
+.businesses-detail .row{
+    padding:5px;
+}
+.businesses-detail a {
+    text-decoration: none;
+    color:  rgb(61, 176, 239);
+}
+
+.businesses-detail .detail-label {
+    text-align: right;
+    font-weight: bold;
+
+}
+
+.businesses-detail .avatar-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.businesses-detail img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.businesses-detail ul{
+    list-style: none;
+}
+
+.jconfirm .jconfirm-box div.jconfirm-content-pane {
+    overflow: visible;
+}
+
+.list-user label {
+    line-height: 30px;
+}
+
+.x_title .nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0 6px 5px;
+    float: left;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.status-group li {
+    cursor: pointer;
+}
+
+.location-tabs .active {
+    color: red;
+}
+
+#search-input {
+    margin-right: 5px;
+}
+.custom-search{
+    width: 100%;
+}
+.custom-search label{
+    cursor: pointer;
+}
+.custom-search select{
+    margin: 5px;
+}
+.custom-search #search-input {
+    width: 50%;
+}
+
+.ckb-input {
+    text-align: center;
+}
+
+li.active {
+    border:none;
+}
+.upload-file-box {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 10000;
+    display: block;
+    top: 75px;
+    left: 0px;
+}
+
+.user-wrap .avatar-box {
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: 1px solid #fff;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.user-info {
+    display: block;
+    float: left;
+}
+.user-info span {
+    font-size: 14px;
+    display: block;
+}
+
+.image-replay-view {
+    width: 100%;
+}
+.image-replay-view img {
+    max-width: 50%;
+}
+.disable {
+    pointer-events: none;
+}
+.support-detail {
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    height: auto;
+    margin: 0 auto;
+}
+.message-warp{
+    margin-top: 20px;
+}
+
+.reply-wrap {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reply-wrap textarea {
+    resize: vertical;
+}
+.reply-wrap .btn-group {
+    margin-top: 20px;
+}
+
+.reply-wrap .btn-group button{
+    margin: 5px;
+}
+
+.support-status{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Tooltip container */
+.tooltip-alert {
+    /*position: relative;*/
+    display: inline-block !important;
+    color: red;
+    margin-left: 5px;
+}
+
+/* Tooltip text */
+.tooltip-alert .tooltiptext {
+    visibility: hidden;
+    /*width: 120px;*/
+    background-color: #EDEDED;
+    color: #333;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 5px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-alert:hover .tooltiptext {
+    visibility: visible;
+}
+
+.state-box {
+    padding-left: 0px;
+}
+
+.zip-code-box {
+    padding-right: 0px;
+}
+
+.zip-code-box input{
+    height: 50px;
+}
+
+.detail-label, .status-label, .text-label {
+    line-height: 36px;
+}

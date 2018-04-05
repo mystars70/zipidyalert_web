@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+  .zerogrid{ width: 1178px; position: relative; margin: 0 auto; padding: 0px; }
+
+.zerogrid:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+.zerogrid .row{}
+.zerogrid .row:before,.row:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.zerogrid .row:after{clear: both; }
+.zerogrid .row{zoom: 1;}
+.zerogrid .wrap-col{margin:10px;}
+.zerogrid .wrap-col2{margin:15px 0 0;}
+
+.zerogrid .col-1-1,.zerogrid .col-1-4, .zerogrid .col-1-5,  .zerogrid .col-1-6,.zerogrid .col-1-7,.zerogrid .col-1-8,.zerogrid .col-2-2,.zerogrid .col-1-9,.zerogrid .col-2-5{float:left; display: inline-block;}
+.zerogrid .col-2-1,.zerogrid .col-2-3,.zerogrid .col-2-4{float:right; display: inline-block;}
+
+  /*.zerogrid .col-1-1{ width:30%}*/
+  .zerogrid .col-1-1,.zerogrid .col-2-2{ width:20%}
+  .zerogrid .col-1-4{width:41%;}
+  .zerogrid .col-1-5{width:15%;}
+  .zerogrid .col-1-6{ width:38%}
+  .zerogrid .col-1-7{ width:60%}
+  .zerogrid .col-1-8{ width:48.5%}
+  .zerogrid .col-1-9{ width:65%}
+  
+  
+  .zerogrid .col-2-1{ width:60%}
+  .zerogrid .col-2-3{ width:76%}
+  .zerogrid .col-2-4{ width:27%}
+  .zerogrid .col-2-5{ width:70%}
+  
+  
+  
+@media only screen and (min-width: 960px) and (max-width: 1280px){
+	.zerogrid{ width:80%}
+	.zerogrid .col-1-4{ width:100%}
+	.zerogrid .col-2-1{ width:70%}
+	.zerogrid .col-1-6{ width:38%}
+	.zerogrid .col-1-7{ width:60%}
+	
+	 
+	 
+	 }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.zerogrid{ width:80%}
+	.zerogrid .col-1-4,.zerogrid .col-1-9, .zerogrid .col-2-4{ width:100%}
+	.zerogrid .col-2-1{ width:70%}
+	.zerogrid .col-1-6,.zerogrid .col-1-7{ width:100%}
+	.zerogrid .col-1-5{ width:60%}
+	
+}
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+	
+	.zerogrid{ width:80%}
+	.zerogrid .col-1-5,.zerogrid .col-2-1{ width:70%}
+	.zerogrid .col-1-4,.zerogrid .col-1-6,.zerogrid .col-1-7,.zerogrid .col-1-8,.zerogrid .col-2-2,.zerogrid .col-2-3,.zerogrid .col-1-9, .zerogrid .col-2-4,.zerogrid .col-2-5{ width:100%}
+
+
+	
+}
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+	.zerogrid{width:90%}
+	.zerogrid .col-1-1{ width:25%}
+	.zerogrid .col-2-1{ width:80%}
+	.zerogrid .col-1-4,.zerogrid .col-1-6,.zerogrid .col-1-7,.zerogrid .col-1-9,.zerogrid .col-1-8,.zerogrid .col-2-2,.zerogrid .col-2-3, .zerogrid .col-2-4,.zerogrid .col-2-5{ width:100%}
+	 .zerogrid .col-1-5{ width:70%}
+}
+@media only screen and (max-width: 479px) {
+	.zerogrid,.zerogrid .col-2-1{width:90%}
+	.zerogrid .col-1-1{ width:40%}
+	.zerogrid .col-1-4,.zerogrid .col-1-6,.zerogrid .col-1-7,.zerogrid .col-1-8,.zerogrid .col-2-2,.zerogrid .col-2-3,.zerogrid .col-1-9, .zerogrid .col-2-4,.zerogrid .col-2-5{ width:100%}
+	.zerogrid .col-1-5{ width:70%}
+	#content,#item{ font-size:15px;}
+	
+		
+
+	
+} 
+	

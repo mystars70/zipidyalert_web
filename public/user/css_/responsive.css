@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+   -webkit-text-size-adjust: none;
+}
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+@media only screen and (min-width: 960px) and (max-width: 1280px)
+{	.contaniner-login{ width:100%}
+ 	 .titlelogin{ margin-top:60px; font-size:18px; line-height:27px}
+	  #contaniner-login{background:url(../images/bgcontainer3.png)bottom left no-repeat ; 
+  background-size: cover;
+	background-size: auto 100%; position:absolute;  }
+	  }
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	header{height: 69px; padding:10px;}
+	.nav{ margin-top:79px}
+	.contaniner-login{ width:100%}
+ 	 .titlelogin{ margin-top:60px; font-size:18px; line-height:27px}
+	 #contaniner-login{background:url(../images/bgcontainer2.png)bottom left no-repeat ; height:100% 
+	 }
+	 .sidebar  h3{ font-size:14px;}
+	 .sidebar ul  li { padding:10px 0 10px 5px; font-size:12px;
+	 }#sidebar2 ul  li{ width:50%}
+	 #item{ font-size:12px}
+}
+
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+  header{height: 75px; padding:10px;}
+  .nav{ margin-top:79px}
+  .contaniner-login{ width:100%}
+  .titlelogin{ margin-top:90px; font-size:18px; line-height:27px}
+  .titlelogin{ margin-top:10px; font-size:18px; line-height:27px}
+  #contaniner-login{background:url(../images/bgcontainer2.png)bottom left no-repeat ; height:100%  }
+  .botton2{ width:48%;padding: 13px 0px 13px 0px;
+  font-size:15px; }
+  .botton3{ width:48%;padding: 13px 0px 13px 0px; font-size:15px;
+  margin:5px 0 0px 0;}
+  .margin-left{ margin-left:0px;}
+    #sidebar2 ul  li{ width:50%}
+	#item{ font-size:12px}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+	.titlelogin{ margin-top:10px; font-size:18px; line-height:27px}
+	 .margin-left{ margin-left:0px;}
+	 #sidebar2 ul  li{ width:50%}
+	
+
+}
+@media only screen and (max-width: 479px) {
+	
+	
+  #footer ul{ width:33%}
+  .botton2{ width:90%;padding: 13px 0px 13px 0px;
+	font-size:15px; }
+  .botton3{ width:90%;padding: 13px 0px 13px 0px; font-size:15px;
+  margin:5px 0 0px 0;}
+  .titlelogin{ margin-top:10px; font-size:18px; line-height:27px}
+  .margin-left{ margin-left:0px;}  
+  #sidebar2 ul  li{ width:50%}
+ 
+}
+@media only screen and (min-width: 320px)
+ and (max-width: 900px){
+ header{ height:55px; padding:3px 0 5px 0}
+	.nav {background:#0e90d8;width:90%; padding:10px 18px 10px 18px; z-index:15600; position:relative; font-size:13px; margin-top:57px }
+  .nav > li { float: none; }
+  .nav ul {  display:inline; padding:0; margin:0  }
+  .nav li { position: relative; display:list-item;width:98.2%;padding:5px 0px 5px 0px; margin:0 auto}
+  .login{ width:100%}
+  .nav a{ font-size:12px;}
+  .nav li { }
+  .btlogin{ display:none} .btlogin2{ display:block}
+  .botton{ margin-top:0}
+  .textf,.botton{ width:93%;  padding:5px 8px 5px 8px; margin:0 auto }
+  .contaniner-login{ width:100%;}
+   #contaniner-login{background:url(../images/bgcontainer2.png)bottom left no-repeat ; height:100%  }
+  #login{ width:90%; margin:0 auto}
+  #map img{ width:100%; height:auto}
+	#item{ font-size:11px; text-align:center}
+	#item .right{ text-align:center}
+.profile i{ float:right; }
+.profile{ text-align:right}	
+
+
+ }

@@ -1,0 +1,108 @@
+/*.business-form-update-wrap {
+    width: 290px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    float: right;
+    padding: 0px;
+}
+
+.business-form-update-wrap .btn-modal-close {
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.12);
+    border: none !important;
+    padding: 10px 25px;
+    background-color: #fff !important;
+}
+
+
+.business-form-update-wrap #btn-update-business {
+    background-color: rgb(29, 163, 237) !important;
+    box-shadow: 0 2px 10px 0 rgb(205, 235, 251);
+    border: none !important;
+    padding: 10px 25px;
+    margin-left: 20px;
+    border-radius: 1px !important;
+}
+
+.business-form-update-wrap .input-group-controll {
+    overflow: visible !important;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.business-form-update-wrap .update-message {
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(243, 255, 252);
+    border: 1px solid rgb(80, 227, 194);
+    color: rgb(80, 227, 194);
+    border-radius: 15px;
+    text-align: center;
+    padding: 7px;
+    font-size: 11px;
+}
+
+.business-form-update-wrap .form-input-list {
+    margin: 0px !important;
+}
+
+.update-business-warp {
+    margin: 0px !important;
+}
+
+.update-business-logo-wrap {
+    padding: 0px;
+}
+
+.update-business-logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    border: 2px solid rgb(255, 58, 60);;
+    border-radius: 75px;
+    position: relative;
+}
+
+.img-logo-business {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-color: transparent;
+    top: 40px;
+    left: 40px;
+}
+
+.btn-logo-business {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    position: absolute;
+    top:110px;
+    left: 115px;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.12);
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.circular--square {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}*/
+
+.business-avatar {
+    display: none !important;
+}
+
+.upload-file-box {
+    cursor: pointer;
+}
+
